@@ -14,8 +14,6 @@ ct._RemainderColsList = _RemainderColsList
 
 
 # Load preprocessing pipeline & model
-model_path = path.join("Model", "churn_pipeline_model (2).pkl")
-customer_predictor = joblib.load(model_path)
 
 st.title("📊 Customer Churn Prediction App")
 
